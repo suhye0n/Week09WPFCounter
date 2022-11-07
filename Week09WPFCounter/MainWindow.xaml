@@ -7,7 +7,8 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button x:Name="BtnAdd" Content="눌러주세요" HorizontalAlignment="Center" Margin="0,217,0,0" VerticalAlignment="Top" FontSize="24" Click="OnAdd"/>
+        <Button x:Name="BtnAdd" Content="눌러주세요" HorizontalAlignment="Center" Margin="0,257,0,0" VerticalAlignment="Top" FontSize="24" Click="OnAdd"/>
+        <TextBlock x:Name="TxtCount" HorizontalAlignment="Center" Margin="0,142,0,0" TextWrapping="Wrap" Text="안녕하세요" VerticalAlignment="Top" FontSize="36" Background="#FFEEB8CC" TextAlignment="Center" Width="300"/>
 
     </Grid>
 </Window>
