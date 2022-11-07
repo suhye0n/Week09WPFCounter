@@ -7,6 +7,19 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="Black"/>
+                <GradientStop Color="#FFFFD0D0" Offset="1"/>
+                <GradientStop Color="White" Offset="0"/>
+                <GradientStop Color="#FFFFDCDC" Offset="0.913"/>
+                <GradientStop Color="#FFF1B4B4" Offset="1"/>
+                <GradientStop Color="#FFFFABAB" Offset="0.249"/>
+                <GradientStop Color="#FFEECCCC" Offset="0.19"/>
+                <GradientStop Color="#FFF2D0D0" Offset="0.131"/>
+                <GradientStop Color="#FFF8F4F4" Offset="0.129"/>
+            </LinearGradientBrush>
+        </Grid.Background>
         <Button x:Name="BtnAdd" Content="눌러주세요" HorizontalAlignment="Center" Margin="0,257,0,0" VerticalAlignment="Top" FontSize="24" Click="OnAdd"/>
         <TextBlock x:Name="TxtCount" HorizontalAlignment="Center" Margin="0,142,0,0" TextWrapping="Wrap" Text="안녕하세요" VerticalAlignment="Top" FontSize="36" Background="#FFEEB8CC" TextAlignment="Center" Width="300"/>
 
