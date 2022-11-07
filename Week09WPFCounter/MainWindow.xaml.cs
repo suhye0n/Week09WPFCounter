@@ -24,5 +24,10 @@ namespace Week09WPFCounter
         {
             InitializeComponent();
         }
+
+        private void OnAdd(object sender, RoutedEventArgs e)
+        {
+            BtnAdd.Content = "눌렸습니다";
+        }
     }
 }

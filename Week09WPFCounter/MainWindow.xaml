@@ -7,6 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Button x:Name="BtnAdd" Content="눌러주세요" HorizontalAlignment="Center" Margin="0,217,0,0" VerticalAlignment="Top" FontSize="24" Click="OnAdd"/>
 
     </Grid>
 </Window>
